@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <title>GameNews</title>
+</head>
+<body>
+  <div class="conteiner">
+    <nav class="menuPrincipal">
+      <ul class="ulMenu">
+        <li><span class="games">Games</span><span class="SpanNews">News</span></li>
+        <li> <a href="index.html">Home</a></li>
+        <li><a href="noticias.html">Noticias</a></li>
+        <li><a href="historia.html">História</a></li>
+      </ul>
+    </nav>
+
+    <div class="informacoes">
+      <div class="conteiners">
+        <a href="noticias.html"><img src="img/gt6img.jpg"></a>
+      </div>
+      <div class="conteiners imgAssinsCred">
+       <a href="noticias.html"><img src="img/assssinsCred.jpg"></a> 
+      </div>
+      <div class="conteiners imgKombat">
+        <a href="noticias.html"><img src="img/KombatNovo.jpg"></a>
+      </div>
+      <div class="conteiners imgGodOfwars">
+        <a href="noticias.html"><img src="img/godOfWar.jpg"></a>
+      </div>
+    </div>
+
+    <div class="grupbuttons">
+      <button class="btns btXbox" onclick="redirectToHistory('xbox')">Xbox</button>
+      <button class="btns btPl" onclick="redirectToHistory('playstation')">Playstation</button>
+      <button class="btns btNin" onclick="redirectToHistory('nintendo')">Nintendo</button>
+      
+    </div>
+  </div>
+
+  <script>
+    function redirectToHistory(company) {
+      window.location.href = 'historia.html?empresa=' + company;
+    }
+  </script>
+
+</body>
+</html>

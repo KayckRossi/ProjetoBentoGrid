@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Seymour+One&display=swap');
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+body {
+  line-height: 1;
+  background: rgb(0,0,0);
+  background: linear-gradient(16deg, rgba(0,0,0,1) 4%, rgba(22,21,46,1) 59%, rgba(0,0,0,1) 98%);
+}
+header {
+  background-color: azure;
+}
+
+.menuPrincipal {
+  background-color: white;
+  border-radius: 10px;
+  height: 60px;
+  width: 1100px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  font-size: 1.5em;
+}
+
+.conteiner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.informacoes {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 20px;
+}
+
+.conteiners {
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.conteiners img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.conteiners.imgKombat {
+  height: 410px;
+}
+
+.imgAssinsCred img {
+  height: 500px;
+}
+
+.conteiners.imgGodOfwars {
+  height: 500px;
+}
+.menuPrincipal:hover {
+  border: 3px solid #2d29f7af;
+}
+
+.ulMenu {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ulMenu li:first-child {
+  margin-right: auto;
+}
+
+.ulMenu li:not(:first-child) {
+  margin-left: 20px;
+}
+
+.ulMenu li {
+  color: #1a1a1a;
+}
+
+.SpanNews{
+  font-family: "Seymour One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.games{
+  color:#444377;
+  font-family: "Seymour One", sans-serif;
+}
+
+
+.h1Gta{
+  text-align: center;
+  font-size: 3.5rem;
+  color: white;
+  padding: 20px;
+  line-height: 0.9; 
+  font-family: "Kanit", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.pGta{
+  font-size: 1.5rem;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: -1rem;
+  font-family: "Kanit", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.gtaFundo{
+  background-image: url("../img/gtaFundo.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.h1Asssasins{
+  text-align: center;
+  font-size: 1.5rem;
+  color: white;
+  padding: 20px;
+  font-family: "Kanit", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.pAsssassins{
+  font-size: 1.1rem;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-family: "Kanit", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.h1Kombat{
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+  padding: 20px; 
+  font-family: "Kanit", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.imgKombat p{
+  font-size: 1.4rem;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-family: "Kanit", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.imgGodOfwars p{
+  font-size: 1.4rem;  
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-family: "Kanit", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.imgGodOfwars h1{
+  text-align: center;
+  font-size: 2.1rem;
+  color: white;
+  padding: 20px;
+  font-family: "Kanit", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* .imgAssins{
+  background-image: url("../img/assssinsCred.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+} */
+.conteiners.imgAssinsCred.imgAssins {
+  perspective: 1000px;
+}
+
+.conteiners .front img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.back {
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 0.5s;
+  background: none;
+}
+
+/* Define o estilo para o verso do card */
+.back {
+  transform: rotateY(180deg);
+}
+
+/* Quando o card é virado, aplica a rotação para exibir o verso */
+.flipped .front {
+  transform: rotateY(180deg);
+}
+
+.flipped .back {
+  transform: rotateY(0deg);
+}
+
+.conteiners.imgAssinsCred {
+  height: 300px;
+  margin-top: 50px;
+  background: rgb(0,0,0);
+background: linear-gradient(177deg, rgba(0,0,0,1) 6%, rgba(0,0,0,1) 31%, rgba(238,18,18,0.5886729691876751) 86%);
+}
+
+.conteiners.imgKombat{
+  background: rgb(121,142,231);
+background: linear-gradient(6deg, rgba(121,142,231,1) 0%, rgba(0,0,0,1) 77%, rgba(36,35,35,0.5886729691876751) 96%);
+}
+
+
+.conteiners.imgGodOfwars {
+  perspective: 1000px;
+}
+
+.conteiners.imgGodOfwars .front img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.conteiners.imgGodOfwars .back {
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 0.5s;
+  background: none;
+}
+
+.conteiners.imgGodOfwars .back {
+  transform: rotateY(180deg);
+}
+
+.conteiners.imgGodOfwars.flipped .front {
+  transform: rotateY(180deg);
+}
+
+.conteiners.imgGodOfwars.flipped .back {
+  transform: rotateY(0deg);
+}
+
+.conteiners.imgGodOfwars{
+  /* background: rgb(39,52,65);
+background: linear-gradient(216deg, rgba(39,52,65,1) 0%, rgba(0,0,0,1) 40%, rgba(4,148,255,0.5886729691876751) 82%); */
+background: rgb(39,52,65);
+background: linear-gradient(180deg, rgba(39,52,65,1) 0%, rgba(0,0,0,1) 40%, rgba(4,148,255,0.5886729691876751) 82%);
+}
